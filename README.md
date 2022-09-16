@@ -1,4 +1,4 @@
-# Livewire Calendar
+# Livewire Calendar FORKED FROM https://github.com/asantibanez/livewire-calendar
 
 This package allows you to build a Livewire monthly calendar grid to show events for each day. Events can be loaded 
 from within the component and will be presented on each day depending on the date of the event.
@@ -12,7 +12,7 @@ from within the component and will be presented on each day depending on the dat
 You can install the package via composer:
 
 ```bash
-composer require asantibanez/livewire-calendar
+composer require midgarditltd/livewire-calendar
 ```
 
 ## Requirements
