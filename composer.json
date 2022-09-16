@@ -1,17 +1,22 @@
 {
-    "name": "asantibanez/livewire-calendar",
+    "name": "midgarditltd/livewire-calendar",
     "description": "Laravel Livewire calendar component",
     "keywords": [
         "asantibanez",
+      "midgard IT",
         "livewire-calendar"
     ],
     "homepage": "https://github.com/asantibanez/livewire-calendar",
-    "license": "MIT",
+    "license": "MITmidgarditltd
     "type": "library",
     "authors": [
         {
             "name": "Andrés Santibáñez",
             "email": "santibanez.andres@gmail.com",
+            "role": "Developer"
+        } ,     {
+            "name": "Midgard IT Ltd",
+            "email": "kris@midgard.co.uk",
             "role": "Developer"
         }
     ],
@@ -26,12 +31,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Asantibanez\\LivewireCalendar\\": "src"
+            "Midgarditltd\\LivewireCalendar\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Asantibanez\\LivewireCalendar\\Tests\\": "tests"
+            "Midgarditltd\\LivewireCalendar\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -45,10 +50,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Asantibanez\\LivewireCalendar\\LivewireCalendarServiceProvider"
+                "Midgarditltd\\LivewireCalendar\\LivewireCalendarServiceProvider"
             ],
             "aliases": {
-                "LivewireCalendar": "Asantibanez\\LivewireCalendar\\LivewireCalendarFacade"
+                "LivewireCalendar": "Midgarditltd\\LivewireCalendar\\LivewireCalendarFacade"
             }
         }
     }
