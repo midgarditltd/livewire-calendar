@@ -7,7 +7,7 @@
         "livewire-calendar"
     ],
     "homepage": "https://github.com/asantibanez/livewire-calendar",
-    "license": "MIT"
+    "license": "MIT",
     "type": "library",
     "authors": [
         {
